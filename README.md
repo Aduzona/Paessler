@@ -308,6 +308,8 @@ pd.read_csv(output_file_name, sep=",", header=None)
 ```
 10,800 predicted values of target variable `snmpcpu_processor_1` was displayed.
 
+![Batch Transform test](screenshots/Batch_Transform_Data.png)
+
 ## References
 
 * [SNMP CPU Load sensor monitors](https://www.paessler.com/manuals/prtg/snmp_cpu_load_sensor)
