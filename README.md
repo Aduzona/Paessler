@@ -1,6 +1,17 @@
 # Presentation 
+
 **Task:**
 * Take network card inbound traffic of some device, and predict the CPU load of the same device using linear regression
+
+**Content**
+
+1. Data
+2. Training
+3. Endpoint
+4. Lambda
+5. Serving the Endpoint
+6. Batch Transform job
+
 
 After doing this on my Laptop, I used sagemaker notebook with `ml.t3.medium` instance.
 
@@ -194,6 +205,8 @@ sklearn_estimator_1.fit({"train": trainpath, "test": testpath})
 ```
 ![Trained model](screenshots/Models.png)
 
+
+## Endpoint
 I then deployed this model.
 ```py
 predictor=sklearn_estimator_1.deploy(initial_instance_count=1,instance_type='ml.m5.xlarge')
