@@ -310,5 +310,5 @@ pd.read_csv(output_file_name, sep=",", header=None)
 
 ## References
 
-[SNMP CPU Load sensor monitors](https://www.paessler.com/manuals/prtg/snmp_cpu_load_sensor)
-[Batch Transformation](https://github.com/aws/amazon-sagemaker-examples/blob/main/sagemaker-python-sdk/scikit_learn_model_registry_batch_transform/scikit_learn_model_registry_batch_transform.ipynb)
+* [SNMP CPU Load sensor monitors](https://www.paessler.com/manuals/prtg/snmp_cpu_load_sensor)
+* [Batch Transformation](https://github.com/aws/amazon-sagemaker-examples/blob/main/sagemaker-python-sdk/scikit_learn_model_registry_batch_transform/scikit_learn_model_registry_batch_transform.ipynb)
